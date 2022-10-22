@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF3B5DD52901722C003FF08F /* Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3B5DD42901722C003FF08F /* Extra.swift */; };
 		EFF9762C28F9506500A4C1B1 /* MoleculeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF9762B28F9506500A4C1B1 /* MoleculeApp.swift */; };
 		EFF9762E28F9506500A4C1B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF9762D28F9506500A4C1B1 /* ContentView.swift */; };
 		EFF9763028F9506600A4C1B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF9762F28F9506600A4C1B1 /* Assets.xcassets */; };
 		EFF9763328F9506600A4C1B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF9763228F9506600A4C1B1 /* Preview Assets.xcassets */; };
+		EFF9763A28FBFD2B00A4C1B1 /* MathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF9763928FBFD2B00A4C1B1 /* MathUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF3B5DD42901722C003FF08F /* Extra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extra.swift; sourceTree = "<group>"; };
 		EFF9762828F9506500A4C1B1 /* Molecule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molecule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF9762B28F9506500A4C1B1 /* MoleculeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoleculeApp.swift; sourceTree = "<group>"; };
 		EFF9762D28F9506500A4C1B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFF9762F28F9506600A4C1B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFF9763228F9506600A4C1B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFF9763928FBFD2B00A4C1B1 /* MathUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				EFF9762B28F9506500A4C1B1 /* MoleculeApp.swift */,
 				EFF9762D28F9506500A4C1B1 /* ContentView.swift */,
+				EF3B5DD42901722C003FF08F /* Extra.swift */,
+				EFF9763928FBFD2B00A4C1B1 /* MathUtils.swift */,
 				EFF9762F28F9506600A4C1B1 /* Assets.xcassets */,
 				EFF9763128F9506600A4C1B1 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF9763A28FBFD2B00A4C1B1 /* MathUtils.swift in Sources */,
 				EFF9762E28F9506500A4C1B1 /* ContentView.swift in Sources */,
+				EF3B5DD52901722C003FF08F /* Extra.swift in Sources */,
 				EFF9762C28F9506500A4C1B1 /* MoleculeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
